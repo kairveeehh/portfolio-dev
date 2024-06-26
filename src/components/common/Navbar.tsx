@@ -14,7 +14,7 @@ const navbarItems = [
     },
     {
         name: "Projects",
-        href: "/Projects",
+        href: "/projects",
         icon: TerminalIcon,
     },
     {
