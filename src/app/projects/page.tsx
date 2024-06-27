@@ -106,13 +106,15 @@ export default function Component() {
            Live Link →
           </CardItem>
           <CardItem
-            translateZ={20}
-            translateX={40}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            Sign up
-          </CardItem>
+  translateZ={20}
+  translateX={40}
+  as="a"
+  href=""
+  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+>
+  <GitHubLogoIcon />
+  
+</CardItem>
         </div>
       </CardBody>
     </CardContainer>
@@ -155,13 +157,15 @@ export default function Component() {
            Live Link →
           </CardItem>
           <CardItem
-            translateZ={20}
-            translateX={40}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            Sign up
-          </CardItem>
+  translateZ={20}
+  translateX={40}
+  as="a"
+  href=""
+  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+>
+  <GitHubLogoIcon />
+  
+</CardItem>
         </div>
       </CardBody>
     </CardContainer>
@@ -204,13 +208,15 @@ export default function Component() {
            Live Link →
           </CardItem>
           <CardItem
-            translateZ={20}
-            translateX={40}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            Sign up
-          </CardItem>
+  translateZ={20}
+  translateX={40}
+  as="a"
+  href=""
+  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+>
+  <GitHubLogoIcon />
+  
+</CardItem>
         </div>
       </CardBody>
     </CardContainer>
@@ -253,13 +259,15 @@ export default function Component() {
            Live Link →
           </CardItem>
           <CardItem
-            translateZ={20}
-            translateX={40}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            Sign up
-          </CardItem>
+  translateZ={20}
+  translateX={40}
+  as="a"
+  href=""
+  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+>
+  <GitHubLogoIcon />
+  
+</CardItem>
         </div>
       </CardBody>
     </CardContainer>
