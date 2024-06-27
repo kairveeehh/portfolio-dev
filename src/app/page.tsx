@@ -1,6 +1,7 @@
 
 import Navbar from "@/components/common/Navbar";
 import { DockDemo } from "@/components/dock";
+import Footer from "@/components/footer";
 import { LinkPreviewDemo } from "@/components/linkpreview";
 import { IconCloudDemo } from "@/components/skillcloud";
 
