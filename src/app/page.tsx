@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/common/Navbar";
+import CopyCmd from "@/components/copycmd";
 import { DockDemo } from "@/components/dock";
 import Footer from "@/components/footer";
 import { LinkPreviewDemo } from "@/components/linkpreview";
@@ -14,8 +15,12 @@ export default function Home() {
     <main className="relative min-h-screen p-4">
      
       <h1>portfolio begins</h1>
+
+     
+                <CopyCmd />
+                    
+                
  
-   
   
      
    

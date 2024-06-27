@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/footer";
+import { Toaster } from "@/components/ui/toaster";
 
 
 
@@ -30,6 +31,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <Toaster />
              <Navbar />
             {children}
             <Footer />

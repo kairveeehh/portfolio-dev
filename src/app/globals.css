@@ -74,3 +74,26 @@
       @apply bg-background text-foreground;
     }
   }
+  .homepagecontactbtn {
+  
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: flex;
+    gap: 10px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+
+    border: 2px solid #808080 !important;
+    transition: all ease-in 0.2s !important;
+  
+}
+
+.homepagecontactbtn:hover
+ {
+    box-shadow: none;
+    transform: translateY(6px) !important;
+    transition: all ease-in 0.2s;
+    opacity: 1 !important;
+}
