@@ -31,8 +31,8 @@ export default function Component() {
         </CardItem>
         <CardItem
           translateZ="100"
-          rotateX={20}
-          rotateZ={-10}
+        rotateX={0}
+      rotateZ={0}
           className="w-full mt-4"
         >
           <Image
@@ -80,8 +80,8 @@ export default function Component() {
         </CardItem>
         <CardItem
           translateZ="100"
-          rotateX={20}
-          rotateZ={-10}
+        rotateX={0}
+      rotateZ={0}
           className="w-full mt-4"
         >
           <Image
@@ -129,8 +129,8 @@ export default function Component() {
         </CardItem>
         <CardItem
           translateZ="100"
-          rotateX={20}
-          rotateZ={-10}
+        rotateX={0}
+      rotateZ={0}
           className="w-full mt-4"
         >
           <Image
@@ -178,8 +178,8 @@ export default function Component() {
         </CardItem>
         <CardItem
           translateZ="100"
-          rotateX={20}
-          rotateZ={-10}
+        rotateX={0}
+      rotateZ={0}
           className="w-full mt-4"
         >
           <Image
@@ -227,8 +227,8 @@ export default function Component() {
         </CardItem>
         <CardItem
           translateZ="100"
-          rotateX={20}
-          rotateZ={-10}
+        rotateX={0}
+      rotateZ={0}
           className="w-full mt-4"
         >
           <Image
