@@ -75,20 +75,24 @@
     }
   }
   .homepagecontactbtn {
-  
-    padding-top: 13px;
-    padding-bottom: 13px;
-    display: flex;
+    padding: 18px;
+    display: none; /* Hide by default for small screens */
     gap: 10px;
     outline: none;
     justify-content: center;
     align-items: center;
     width: 25%;
-
     border: 2px solid #808080 !important;
     transition: all ease-in 0.2s !important;
-  
 }
+
+/* Show on medium screens and larger */
+@media (min-width: 768px) {
+    .homepagecontactbtn {
+        display: flex;
+    }
+}
+
 
 .homepagecontactbtn:hover
  {

@@ -9,27 +9,27 @@ export function DockDemo() {
       <Dock>
         <DockIcon>
         <a href="https://github.com/kairveeehh"  rel="noopener noreferrer">
-            <Icons.gitHub className="h-6 w-6" />
+            <Icons.gitHub className="h-9 w-9" />
           </a>
         </DockIcon>
         <DockIcon>
         <a href="https://www.linkedin.com/in/kairveee/"  rel="noopener noreferrer">
-            <Icons.linkedin className="h-6 w-6" />
+            <Icons.linkedin className="h-8 w-9" />
           </a>
         </DockIcon>
         <DockIcon>
         <a href="https://x.com/kairveee"  rel="noopener noreferrer">
-            <Icons.twitte className="h-8 w-9" />
+            <Icons.twitte className="h-10 w-10" />
           </a>
         </DockIcon>
         <DockIcon>
         <a href=""  rel="noopener noreferrer">
-            <Icons.medium className="h-9 w-9" />
+            <Icons.medium className="h-10 w-9" />
           </a>
         </DockIcon>
         <DockIcon>
         <a href="mailto:vkairvee@gmail.com" rel="noopener noreferrer">
-  <Icons.Gmail className="h-8 w-9" />
+  <Icons.Gmail className="h-9 w-9" />
 </a>
 
         </DockIcon>
