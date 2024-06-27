@@ -12,7 +12,7 @@ export default function Component() {
 
           <div className="grid gap-5 sm:grid-cols-1 lg:grid-cols-2">
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-transparent dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -55,16 +55,15 @@ export default function Component() {
                     translateX={40}
                     as="a"
                     href=""
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
-                    <GitHubLogoIcon />
-
+                    <GitHubLogoIcon className="w-8 h-8" />
                   </CardItem>
                 </div>
               </CardBody>
             </CardContainer>
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-transparent dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                   translateZ="60"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -107,16 +106,15 @@ export default function Component() {
                     translateX={40}
                     as="a"
                     href=""
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
-                    <GitHubLogoIcon />
-
+                    <GitHubLogoIcon className="w-8 h-8" />
                   </CardItem>
                 </div>
               </CardBody>
             </CardContainer>
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-transparent dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -158,16 +156,15 @@ export default function Component() {
                     translateX={40}
                     as="a"
                     href=""
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
-                    <GitHubLogoIcon />
-
+                    <GitHubLogoIcon className="w-8 h-8" />
                   </CardItem>
                 </div>
               </CardBody>
             </CardContainer>
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-transparent dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -209,16 +206,15 @@ export default function Component() {
                     translateX={40}
                     as="a"
                     href=""
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
-                    <GitHubLogoIcon />
-
+                    <GitHubLogoIcon className="w-8 h-8" />
                   </CardItem>
                 </div>
               </CardBody>
             </CardContainer>
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-transparent dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -239,7 +235,7 @@ export default function Component() {
                   className="w-full mt-4"
                 >
                   <Image
-                    src=""
+                    src="/assests/rtmp simulator.png"
                     height="1000"
                     width="1000"
                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -260,10 +256,9 @@ export default function Component() {
                     translateX={40}
                     as="a"
                     href=""
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
-                    <GitHubLogoIcon />
-
+                    <GitHubLogoIcon className="w-8 h-8" />
                   </CardItem>
                 </div>
               </CardBody>
