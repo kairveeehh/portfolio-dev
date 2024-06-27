@@ -3,11 +3,7 @@ import IconCloud from "./ui/iconcloud";
 const slugs = [
   "typescript",
   "javascript",
-  "dart",
-  "java",
   "react",
-  "flutter",
-  "android",
   "html5",
   "css3",
   "nodedotjs",
@@ -20,8 +16,6 @@ const slugs = [
   "nginx",
   "vercel",
   "testinglibrary",
-  "jest",
-  "cypress",
   "docker",
   "git",
   "jira",
@@ -29,13 +23,19 @@ const slugs = [
   "gitlab",
   "visualstudiocode",
   "androidstudio",
-  "sonarqube",
   "figma",
+  "rust",
+  "linux",
+  "render",
+  "postman",
+  "netlify",
+
+
 ];
 
 export function IconCloudDemo() {
   return (
-    <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
+    <div className="relative flex h-full w-full max-w-[40rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
       <IconCloud iconSlugs={slugs} />
     </div>
   );
