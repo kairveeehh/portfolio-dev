@@ -55,47 +55,46 @@ const HoverImageComponent: React.FC = () => {
 
   return (
     <TooltipProvider delayDuration={0}>
-    
       <div className='mt-20'>
         <div className='flex justify-center items-center'>
           <FaTools className='text-2xl mr-2' />
           <h1 className='text-center'> | My skills |</h1>
         </div>
-      <div className="grid grid-cols-8 gap-y-10 gap-x-14 justify-items-center px-2 py-2 mt-5">
-      
-        {images.map((image, index) => (
-          <Tooltip key={index}>
-            <TooltipTrigger asChild>
-              <div
-                className="relative"
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
-              >
-                <div className={`transition-all duration-300 ease-in-out
-                  ${hoveredIndex === index ? 'scale-125 z-10 rotate-360 ' : 'scale-80'}
-                  ${hoveredIndex !== null && hoveredIndex !== index ? 'blur-sm scale-75' : ''}`}
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-y-10 gap-x-14 justify-items-center px-2 py-2 mt-5">
+          {images.map((image, index) => (
+            <Tooltip key={index}>
+              <TooltipTrigger asChild>
+                <div
+                  className="relative"
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
                 >
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    width={48}
-                    height={48}
-                    className="object-cover"
-                  />
+                  <div className={`transition-all duration-300 ease-in-out
+                    ${hoveredIndex === index ? 'scale-125 z-10 rotate-360 ' : 'scale-80'}
+                    ${hoveredIndex !== null && hoveredIndex !== index ? 'blur-sm scale-75' : ''}`}
+                  >
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={48}
+                      height={48}
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
-              </div>
-            </TooltipTrigger>
-            {hoveredIndex === index && (
-              <TooltipContent className="p-2 text-sm bg-black text-white rounded">
-                <p className='font-bold  text-xl'>{image.tooltip}</p>
-              </TooltipContent>
-            )}
-          </Tooltip>
-        ))}
-      </div>
+              </TooltipTrigger>
+              {hoveredIndex === index && (
+                <TooltipContent className="p-2 text-sm bg-black text-white rounded">
+                  <p className='font-bold text-xl'>{image.tooltip}</p>
+                </TooltipContent>
+              )}
+            </Tooltip>
+          ))}
+        </div>
       </div>
     </TooltipProvider>
   );
 };
 
 export default HoverImageComponent;
+
