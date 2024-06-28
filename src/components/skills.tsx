@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
 import Image from 'next/image';
-
+import { FaTools } from 'react-icons/fa';
 interface ImageData {
   src: string;
   alt: string;
@@ -55,8 +55,12 @@ const HoverImageComponent: React.FC = () => {
 
   return (
     <TooltipProvider delayDuration={0}>
-      <div  className='mt-20'>
-        <h1 className='justify-eelf-center align-center'> My skills | </h1>
+    
+      <div className='mt-20'>
+        <div className='flex justify-center items-center'>
+          <FaTools className='text-2xl mr-2' />
+          <h1 className='text-center'> | My skills |</h1>
+        </div>
       <div className="grid grid-cols-8 gap-y-10 gap-x-14 justify-items-center px-2 py-2 mt-5">
       
         {images.map((image, index) => (

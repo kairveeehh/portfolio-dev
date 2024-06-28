@@ -11,7 +11,7 @@ export default function Footer() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href="https://github.com/kairveeehh"
+                  href="https://x.com/kairveee"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   prefetch={false}
@@ -28,7 +28,7 @@ export default function Footer() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href="https://x.com/kairveee"
+                  href="https://github.com/kairveeehh"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   prefetch={false}

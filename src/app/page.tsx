@@ -3,12 +3,26 @@ import { GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/re
 import { ChevronRight, MailPlus, MouseIcon, Terminal } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
+import MyProjects from "@/components/projects";
 
 import CopyCmd from "@/components/copycmd";
 import { FlipWordsDemo } from "@/components/words";
 import { DockDemo } from "@/components/dock";
 import HoverImageComponent from "@/components/skills";
+
+const projectsData = [
+    {
+      title: 'Project One',
+      description: 'This is the first project.',
+      imageSrc: '/images/project1.jpg'
+    },
+    {
+      title: 'Project Two',
+      description: 'This is the second project.',
+      imageSrc: '/images/project2.jpg'
+    },
+    // Add more projects as needed
+  ];
 const page = () => {
     return (
         <section className="lg:max-w-[50%] mt-20 md:mt-36 md:max-w-[90%] relative md:m-auto p-4 flex flex-col min-h-screen">
@@ -33,7 +47,11 @@ const page = () => {
     <DockDemo />
 </div>
 <HoverImageComponent />
+<div>
+<MyProjects projects={projectsData} />
 </div>
+</div>
+
 
 
              
