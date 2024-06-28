@@ -26,17 +26,17 @@ const page = () => {
             <div className=" flex gap-3 flex-col justify-center items-left min-h-[60vh] lg:min-h-screen">
                 <span className=" text-sm lg:text-md flex items-center gap-2 opacity-70 font-medium tracking-widest uppercase">
                     <Terminal size={17} />
-                    
+                    Hi I am
                 </span>
                 <div className="flex items-center gap-3">
-                    <h1 className="text-4xl flex gap-12 items-center flex-row md:text-7xl lg:text-8xl font-bold ">Hi from kairvee</h1>
+                    <h1 className="text-4xl flex gap-12 items-center flex-row md:text-7xl lg:text-8xl font-bold ">kairvee</h1>
                     
                 </div>
                
                 <FlipWordsDemo />
                 
                 <p className=" opacity-80 text-sm lg:text-xl lg:mb-2 font-medium">
-                    Contributor@ <span className="  text-blue-500  font-bold">GSSoC'24 , TSoC'24</span> &< span className="  text-blue-500 font-bold ">SSoC'24 </span> 
+                    Contributor @< span className="  text-blue-500  font-bold"> GSSoC'24 , TSoC'24</span> & <span className="  text-blue-500 font-bold ">SSoC'24 </span> 
                 </p>
                 <div className="flex flex-col md:flex-row items-right mt-3 gap-1 md:gap-3">
                 <CopyCmd />
