@@ -7,7 +7,7 @@ const LoadMoreButton: React.FC = () => {
     <div className='flex justify-center mt-5'>
       <a
         href="/projects"
-        className='flex items-center px-4 py-2 bg-blue-500 text-white rounded shadow-lg hover:bg-blue-700 transition duration-300'
+        className='flex items-center mt-7 px-4 py-2 bg-blue-700 text-white rounded shadow-lg hover:bg-blue-300 transition duration-300'
       >
         <FaPlus className='mr-2' />
         Load More
