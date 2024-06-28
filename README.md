@@ -4,9 +4,11 @@
 - magicdocs
 -rant app as a blog app 
 - pregcare
+-youtube simulator 
+- clis
+-cah
 ### unsure of 
-- cah
-- rust clis
+
 - spotify and smaller projects 
 ### try to make 
 - smt using websockets 

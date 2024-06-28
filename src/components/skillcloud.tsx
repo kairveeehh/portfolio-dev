@@ -29,6 +29,7 @@ const slugs = [
   "render",
   "postman",
   "netlify",
+  "solidity",
 
 
 ];

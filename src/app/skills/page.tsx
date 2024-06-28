@@ -25,13 +25,18 @@ function CodeIcon(props: CodeIconProps) {
 const skillpage = () => {
   return (
     <div>
-    <h1>skills kairvee</h1>
-    <IconCloudDemo />
+  
+    
     <div className="flex items-center space-x-2">
       <CodeIcon className="w-10 h-10 text-primary animate-[pulse_2s_ease-in-out_infinite]" />
       <h1>My Skills</h1>
+   
+    </div>
+    <div>
+    <IconCloudDemo />
     </div>
   </div>
+  
   
   );
 };

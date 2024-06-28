@@ -93,6 +93,25 @@
     }
 }
 
+@keyframes rotate360 {
+  from { transform: rotate(0deg) scale(1.5); }
+  to { transform: rotate(360deg) scale(1.5); }
+}
+
+.rotate-360 {
+  animation: rotate360 0.5s linear;
+}
+
+
+
+@keyframes smoothRotate {
+  from { transform: rotate(0deg) scale(1.25); }
+  to { transform: rotate(360deg) scale(1.25); }
+}
+
+.rotate-smooth {
+  animation: smoothRotate 2s linear infinite;
+}
 
 .homepagecontactbtn:hover
  {
