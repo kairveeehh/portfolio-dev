@@ -42,7 +42,7 @@ const images: ImageData[] = [
   { src: '/assests/skills/typescript.webp', alt: 'TypeScript', tooltip: 'TypeScript' },
   { src: '/assests/skills/ubuntu.webp', alt: 'Ubuntu', tooltip: 'Ubuntu' },
   { src: '/assests/skills/vercel.webp', alt: 'Vercel', tooltip: 'Vercel' },
-  null,
+  
   { src: '/assests/skills/web3js.webp', alt: 'Web3.js', tooltip: 'Web3.js' },
   { src: '/assests/skills/vite.webp', alt: 'Vite', tooltip: 'Vite' },
   { src: '/assests/skills/tailwind.webp', alt: 'Tailwind CSS', tooltip: 'Tailwind CSS' },
