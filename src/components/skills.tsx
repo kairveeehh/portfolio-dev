@@ -60,7 +60,7 @@ const HoverImageComponent: React.FC = () => {
           <FaTools className='text-2xl mr-2' />
           <h1 className='text-center'> | My skills |</h1>
         </div>
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-y-10 gap-x-14 justify-items-center px-2 py-2 mt-5">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-y-10 gap-x-14 justify-items-center px-2 py-2 mt-10">
           {images.map((image, index) => (
             <Tooltip key={index}>
               <TooltipTrigger asChild>

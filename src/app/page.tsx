@@ -4,24 +4,20 @@ import { ChevronRight, MailPlus, MouseIcon, Terminal } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import MyProjects from "@/components/projects";
+import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+
 
 import CopyCmd from "@/components/copycmd";
 import { FlipWordsDemo } from "@/components/words";
 import { DockDemo } from "@/components/dock";
 import HoverImageComponent from "@/components/skills";
 
-const projectsData = [
-    {
-      title: 'Project One',
-      description: 'This is the first project.',
-      imageSrc: '/images/project1.jpg'
-    },
-    {
-      title: 'Project Two',
-      description: 'This is the second project.',
-      imageSrc: '/images/project2.jpg'
-    },
-    // Add more projects as needed
+const projects = [
+    { title: 'React Project', description: 'A cool project using React.', icon: <FaReact className='text-blue-500' /> },
+    { title: 'Node.js Project', description: 'A backend project using Node.js.', icon: <FaNodeJs className='text-green-500' /> },
+    { title: 'Database Project', description: 'A database project.', icon: <FaDatabase className='text-purple-500' /> },
+ 
+  
   ];
 const page = () => {
     return (
@@ -48,7 +44,7 @@ const page = () => {
 </div>
 <HoverImageComponent />
 <div>
-<MyProjects projects={projectsData} />
+<MyProjects projects={projects} />
 </div>
 </div>
 
