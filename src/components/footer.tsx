@@ -11,7 +11,7 @@ export default function Footer() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href="#"
+                  href="https://github.com/kairveeehh"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   prefetch={false}
@@ -28,7 +28,7 @@ export default function Footer() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href="#"
+                  href="https://x.com/kairveee"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   prefetch={false}
@@ -45,7 +45,7 @@ export default function Footer() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href="#"
+                  href="https://www.linkedin.com/in/kairveee/"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   prefetch={false}
@@ -54,14 +54,14 @@ export default function Footer() {
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
-                <p>https://linkedin.com.in/kairveee</p>
+                <p>https://www.linkedin.com/in/kairveee/</p>
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
         </div>
         <p className="text-sm text-muted-foreground text-center md:text-left">
           Made with ❤️ by{" "}
-          <Link href="#" target="_blank" className="font-medium hover:underline" prefetch={false}>
+          <Link href="https://www.linkedin.com/in/kairveee/" target="_blank" className="font-medium hover:underline" prefetch={false}>
             Kairvee
           </Link>
         </p>
