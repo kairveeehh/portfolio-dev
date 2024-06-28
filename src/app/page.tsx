@@ -13,9 +13,10 @@ import { DockDemo } from "@/components/dock";
 import HoverImageComponent from "@/components/skills";
 
 const projects = [
-    { title: 'React Project', description: 'A cool project using React.', icon: <FaReact className='text-blue-500' /> },
-    { title: 'Node.js Project', description: 'A backend project using Node.js.', icon: <FaNodeJs className='text-green-500' /> },
-    { title: 'Database Project', description: 'A database project.', icon: <FaDatabase className='text-purple-500' /> },
+    { title: ' Cards against Humanity', description: 'A game built with React.', icon: <FaReact className='text-blue-500' /> },
+    { title: 'MagicDocs OpenSource', description: 'A Next.js documentation project', icon: <FaDatabase className='text-purple-500' /> },
+    { title: 'MagicDocs OpenSource', description: 'A backend project using Next.js.', icon: <FaNodeJs className='text-green-500' /> },
+   
  
   
   ];
@@ -25,17 +26,17 @@ const page = () => {
             <div className=" flex gap-3 flex-col justify-center items-left min-h-[60vh] lg:min-h-screen">
                 <span className=" text-sm lg:text-md flex items-center gap-2 opacity-70 font-medium tracking-widest uppercase">
                     <Terminal size={17} />
-                    Hello World
+                    
                 </span>
                 <div className="flex items-center gap-3">
                     <h1 className="text-4xl flex gap-12 items-center flex-row md:text-7xl lg:text-8xl font-bold ">Hi from kairvee</h1>
                     
                 </div>
                
-                    <FlipWordsDemo />
+                <FlipWordsDemo />
                 
                 <p className=" opacity-80 text-sm lg:text-xl lg:mb-2 font-medium">
-                    I develop open-source <span className="  text-blue-500 uppercase font-bold">full-stack</span> apps/tools and occasionally take on <span className=" uppercase text-blue-500 font-bold tracking-wider">freelance</span> projects.
+                    Contributor@ <span className="  text-blue-500  font-bold">GSSoC'24 , TSoC'24</span> &< span className="  text-blue-500 font-bold ">SSoC'24 </span> 
                 </p>
                 <div className="flex flex-col md:flex-row items-right mt-3 gap-1 md:gap-3">
                 <CopyCmd />

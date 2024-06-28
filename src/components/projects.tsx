@@ -27,11 +27,12 @@ const MyProjects: React.FC<MyProjectsProps> = ({ projects, showLoadMore = false 
     <div className='mt-20'>
       <div className='flex justify-center items-center'>
         <FaFolderOpen className='text-2xl mr-2' />
-        <h1 className='text-center'>My Projects</h1>
+        <h1 className='text-center'> | My Projects |</h1>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-5 justify-items-center px-2 py-2 mt-10'>
         {projects.slice(0, visibleProjects).map((project, index) => (
-          <div key={index} className='bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105'>
+          <div key={index} className='bg-white dark:bg-transparent p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 border border-b;lue-700'>
+
             <div className='flex items-center mb-4'>
               <div className='text-4xl mr-4 transition-transform duration-300 hover:scale-150'>
                 {project.icon}
