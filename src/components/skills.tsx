@@ -57,7 +57,7 @@ const HoverImageComponent: React.FC = () => {
     <TooltipProvider delayDuration={0}>
       <div  className='mt-20'>
         <h1 className='justify-eelf-center align-center'> My skills | </h1>
-      <div className="grid grid-cols-7 gap-y-10 justify-items-center px-2 py-2 mt-5">
+      <div className="grid grid-cols-8 gap-y-10 gap-x-8 justify-items-center px-2 py-2 mt-5">
       
         {images.map((image, index) => (
           <Tooltip key={index}>
@@ -74,8 +74,8 @@ const HoverImageComponent: React.FC = () => {
                   <Image
                     src={image.src}
                     alt={image.alt}
-                    width={40}
-                    height={40}
+                    width={48}
+                    height={48}
                     className="object-cover"
                   />
                 </div>
