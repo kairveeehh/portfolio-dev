@@ -12,11 +12,44 @@ import { GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/re
 import { Info, MailPlus, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import CertificationsSection from "@/components/cert";
 
-
+const certifications = [
+    {
+      id: 1,
+      title: "SQL-Basic to Advanced",
+      image: "/assests/images/geekster.png",
+      description: "Received the certificate for comple the geekster SQL assignments",
+      issuer: "Geekster",
+      date: "2024-05-12"
+    },
+    {
+        id: 2,
+        title: "Bitcoin Script & Enterprise Course",
+        image: "/assests/images/bitcoin.png",
+        description: "Comprehensive course on Bitcoin and blockchain technologies.",
+        issuer: "BSV Academy",
+        date: "2024-06-15"
+      },
+      {
+        id: 3,
+        title: "Rookie Developer Badge",
+        image: "/assests/images/tsoc.png",
+        description: "Earned for assignment completion of the workshops in TSoC'24",
+        issuer: "TimeChain Labs",
+        date: "2024-06-35"
+      },
+    // Add more certification objects...
+  ];
 const AboutPage = () => {
-    return (
-       <h1> about kairvee</h1>
+    
+    return (<section className="lg:max-w-[50%] mt-20 md:mt-36 md:max-w-[90%] relative md:m-auto p-4 flex flex-col min-h-screen">
+            <div className=" flex gap-3 flex-col justify-center items-left min-h-[60vh] lg:min-h-screen">
+
+            <CertificationsSection certifications={certifications} />
+            </div>
+            </section>
+   
     );
 };
 
