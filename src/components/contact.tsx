@@ -125,7 +125,14 @@ const ContactMe: React.FC = () => {
           <span>LinkedIn</span>
         </motion.a>
       </motion.div>
-   
+   <motion.h1
+   className=''>
+      drop a message for me? lets do it the git way !! 
+   </motion.h1>
+   <motion.h2
+   className='text-green-500'>
+     git add . "your message for me" && git commit -m "your mail id"
+   </motion.h2>
       <motion.div
         className="w-full max-w-2xl mt-8 bg-gray-200 dark:bg-gray-800 p-6 rounded-lg shadow-lg relative"
         initial={{ opacity: 0 }}
