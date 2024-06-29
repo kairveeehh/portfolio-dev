@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-
+import { FaTools, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { IconCloudDemo } from "@/components/skillcloud";
 type CodeIconProps = React.SVGProps<SVGSVGElement>;
 function CodeIcon(props: CodeIconProps) {
@@ -22,23 +22,17 @@ function CodeIcon(props: CodeIconProps) {
     </svg>
   )
 }
-const skillpage = () => {
+const SkillPage = () => {
   return (
-    <div>
-  
-    
-    <div className="flex items-center space-x-2">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <CodeIcon className="w-10 h-10 text-primary animate-[pulse_2s_ease-in-out_infinite]" />
-      <h1>My Skills</h1>
-   
+      <h1 className="text-center text-2xl font-bold my-4">| My Skills |</h1>
+      <div className="w-full flex justify-center mt-8">
+        <IconCloudDemo />
+      </div>
     </div>
-    <div>
-    <IconCloudDemo />
-    </div>
-  </div>
-  
-  
   );
 };
 
-export default skillpage;
+export default SkillPage;
+
