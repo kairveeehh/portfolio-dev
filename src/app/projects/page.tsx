@@ -3,6 +3,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3dcard"; "next/link";
 
 import Image from "next/image";
+import { LinkPreviewDemo } from "@/components/linkpreview";
 
 export default function Component() {
   return (
@@ -265,6 +266,7 @@ export default function Component() {
               </CardBody>
             </CardContainer>
           </div>
+          <LinkPreviewDemo />
         </div>
       </div>
 

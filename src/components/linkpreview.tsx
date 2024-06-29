@@ -7,24 +7,29 @@ export function LinkPreviewDemo() {
   return (
     <div className="flex justify-center items-center h-[40rem] flex-col px-4">
       <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
-        <LinkPreview url="https://tailwindcss.com" className="font-bold">
-          Tailwind CSS
+        I also create{" "}
+        <LinkPreview url="https://kairveeehh.github.io/holii-haiii/" className="font-bold">
+          Animated Websites
         </LinkPreview>{" "}
-        and{" "}
-        <LinkPreview url="https://framer.com/motion" className="font-bold">
-          Framer Motion
+        and{" "} have worked over projects like{ " "}
+        <LinkPreview url="https://kairveeehh.github.io/stone-paper-scissor/" className="font-bold">
+          DeCentr-Freelance
         </LinkPreview>{" "}
-        are a great way to build modern websites.
+      
+        and Personal Spotify.
       </p>
       <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto">
-        Visit{" "}
-        <LinkPreview
-          url="https://ui.aceternity.com"
-          className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
-        >
-          Aceternity UI
-        </LinkPreview>{" "}
-        for amazing Tailwind and Framer Motion components.
+        Other small projects include mini-games like{" "}
+        <LinkPreview url="https://kairveeehh.github.io/stone-paper-scissor/" className="font-bold">
+          Flippy Bird
+        </LinkPreview>{" "} ,{" "}
+        <LinkPreview url="https://kairveeehh.github.io/stone-paper-scissor/" className="font-bold">
+          Stone Paper Scissors
+        </LinkPreview>{" "} and{" "}
+        <LinkPreview url="https://kairveeehh.github.io/stone-paper-scissor/" className="font-bold">
+          Currency Converter
+        </LinkPreview>{" "} .
+      
       </p>
     </div>
   );

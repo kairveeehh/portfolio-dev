@@ -11,6 +11,7 @@ import CopyCmd from "@/components/copycmd";
 import { FlipWordsDemo } from "@/components/words";
 import { DockDemo } from "@/components/dock";
 import HoverImageComponent from "@/components/skills";
+import ReadmeDisplay from "@/components/readme";
 
 const projects = [
     { title: ' Cards against Humanity', description: 'A game built with React.', icon: <FaReact className='text-blue-500' /> },
@@ -75,7 +76,7 @@ const page = () => {
 <MyProjects projects={projects} />
 </div>
 
-<CertificationsSection certifications={certifications} />
+
 
 </div>
 
