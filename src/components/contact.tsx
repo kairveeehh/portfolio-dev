@@ -91,7 +91,7 @@ const ContactMe: React.FC = () => {
 
           whileHover={{ scale: 1.1, rotate: 5 }}
         >
-          <Mail className="h-8 w-8 mb-2 text-blue-500" />
+          <Mail className="h-8 w-8 mb-2 text-red-800" />
           <span>Email</span>
         </motion.a>
 
@@ -101,7 +101,7 @@ const ContactMe: React.FC = () => {
 
           whileHover={{ scale: 1.1, rotate: -5 }}
         >
-          <TwitterLogoIcon className="h-8 w-8 mb-2 text-blue-500" />
+          <TwitterLogoIcon className="h-8 w-8 mb-2 text-blue-400" />
           <span>Twitter</span>
         </motion.a>
 
