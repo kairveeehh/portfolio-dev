@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import MyProjects from "@/components/projects";
 import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
-
+import CertificationsSection from "@/components/cert";
 
 import CopyCmd from "@/components/copycmd";
 import { FlipWordsDemo } from "@/components/words";
@@ -19,6 +19,33 @@ const projects = [
    
  
   
+  ];
+  const certifications = [
+    {
+      id: 1,
+      title: "Web Development Mastery",
+      image: "/assests/magicdocs.png",
+      description: "Comprehensive web development certification covering frontend and backend technologies.",
+      issuer: "Tech Academy",
+      date: "2023-05-15"
+    },
+    {
+        id: 1,
+        title: "Web Development Mastery",
+        image: "/assests/magicdocs.png",
+        description: "Comprehensive web development certification covering frontend and backend technologies.",
+        issuer: "Tech Academy",
+        date: "2023-05-15"
+      },
+      {
+        id: 1,
+        title: "Web Development Mastery",
+        image: "/assests/magicdocs.png",
+        description: "Comprehensive web development certification covering frontend and backend technologies.",
+        issuer: "Tech Academy",
+        date: "2023-05-15"
+      },
+    // Add more certification objects...
   ];
 const page = () => {
     return (
@@ -47,6 +74,9 @@ const page = () => {
 <div>
 <MyProjects projects={projects} />
 </div>
+
+<CertificationsSection certifications={certifications} />
+
 </div>
 
 
