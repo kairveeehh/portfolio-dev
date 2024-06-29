@@ -12,6 +12,7 @@ import { FlipWordsDemo } from "@/components/words";
 import { DockDemo } from "@/components/dock";
 import HoverImageComponent from "@/components/skills";
 import ReadmeDisplay from "@/components/readme";
+import ContactMe from "@/components/contact";
 
 const projects = [
     { title: ' Cards against Humanity', description: 'A game built with React.', icon: <FaReact className='text-blue-500' /> },
@@ -74,6 +75,9 @@ const page = () => {
 <HoverImageComponent />
 <div>
 <MyProjects projects={projects} />
+</div>
+<div>
+  <ContactMe />
 </div>
 
 

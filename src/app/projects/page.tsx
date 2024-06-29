@@ -25,7 +25,7 @@ export default function Component() {
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Javascript , Streamlit , Auth0
+                  Javascript , Streamlit , Auth0 , Shadcn
                 </CardItem>
                 <CardItem
                   translateZ="100"
@@ -77,7 +77,7 @@ export default function Component() {
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Next.js , Drizzle , Tailwind
+                  Next.js , Drizzle , Tailwind , Shadcn
                 </CardItem>
                 <CardItem
                   translateZ="100"
@@ -121,14 +121,14 @@ export default function Component() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
-                  Make things float in air
+                  Cards Against Humanity
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Hover over this card to unleash the power of CSS perspective
+                  ReactJs , Tailwind 
                 </CardItem>
                 <CardItem
                   translateZ="100"
@@ -171,14 +171,14 @@ export default function Component() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
-                  Make things float in air
+                  Imaginify -with kairvee
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Hover over this card to unleash the power of CSS perspective
+                  ReactJs , OpenAI API
                 </CardItem>
                 <CardItem
                   translateZ="100"
@@ -221,14 +221,14 @@ export default function Component() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
-                  Make things float in air
+                  Youtube live simulator
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Hover over this card to unleash the power of CSS perspective
+                  NodeJs , FFmpeg , Docker 
                 </CardItem>
                 <CardItem
                   translateZ="100"

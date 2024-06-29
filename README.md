@@ -1,22 +1,12 @@
-# less go and make a damn portfolio 
-### projects to add 
-- hint bout npx kairveee
-- magicdocs
--rant app as a blog app 
-- pregcare
--youtube simulator 
-- clis
--cah
-### unsure of 
 
-- spotify and smaller projects 
+## dues
+- contact me 
+- hrefs at most places
+## check for
+-ballwali thingin about
+
 ### try to make 
 - smt using websockets 
 
 
-### link preview projects can be
-- spotify
--sps
--flippy bird
--holi hai
--currency converter
+
