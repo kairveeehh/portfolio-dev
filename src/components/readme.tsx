@@ -22,7 +22,7 @@ const ReadmeDisplay: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-transparent text-white p-8 flex flex-col justify-center items-center">
+    <div className="min-h-screen bg-transparent text-white p-3 flex flex-col justify-center items-center">
       <div className="bg-transparent bg-opacity-50 p-6 rounded-lg shadow-lg max-w-3xl mx-auto w-full">
         {content ? (
           <ReactMarkdown
