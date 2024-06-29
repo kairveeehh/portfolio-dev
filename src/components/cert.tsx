@@ -22,7 +22,7 @@ interface CertificationCardProps {
 const CertificationCard: React.FC<CertificationCardProps> = ({ cert }) => {
   return (
     <motion.div 
-      className="bg-gray-900 rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl border border-gray-800 flex flex-col sm:flex-row"
+      className="bg-transparent rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl border border-gray-300 dark:border-gray-800 flex flex-col sm:flex-row"
       whileHover={{ scale: 1.02 }}
       layout
     >
@@ -41,17 +41,10 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ cert }) => {
             className="transition-all duration-300 group-hover:brightness-110"
           />
         </motion.div>
-        {/* <motion.div 
-          className="absolute top-2 left-2 bg-blue-600 text-white p-2 rounded-full shadow-lg"
-          whileHover={{ scale: 1.1, rotate: 360 }}
-          transition={{ duration: 0.3 }}
-        >
-          <FaCertificate size={24} aria-hidden="true" />
-        </motion.div> */}
       </div>
       <div className="p-6 flex-grow">
         <motion.h3 
-          className="text-2xl font-bold mb-3 text-white flex items-center"
+          className="text-2xl font-bold mb-3 text-gray-800 dark:text-white flex items-center"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.1 }}
@@ -60,7 +53,7 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ cert }) => {
           {cert.title}
         </motion.h3>
         <motion.p 
-          className="text-gray-300 mb-4"
+          className="text-gray-600 dark:text-gray-300 mb-4"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -68,7 +61,7 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ cert }) => {
           {cert.description}
         </motion.p>
         <motion.div 
-          className="flex flex-col sm:flex-row justify-between items-start sm:items-center text-sm text-gray-400 mb-4"
+          className="flex flex-col sm:flex-row justify-between items-start sm:items-center text-sm text-gray-500 dark:text-gray-400 mb-4"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3 }}
@@ -82,22 +75,6 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ cert }) => {
             {cert.date}
           </span>
         </motion.div>
-        {cert.url && (
-          <motion.a 
-            href={cert.url} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="mt-2 inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors duration-200"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            initial={{ y: -20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.4 }}
-          >
-            <FaLink className="mr-2" />
-            View Certificate
-          </motion.a>
-        )}
       </div>
     </motion.div>
   );
@@ -109,15 +86,15 @@ interface CertificationsSectionProps {
 
 const CertificationsSection: React.FC<CertificationsSectionProps> = ({ certifications }) => {
   return (
-    <section className="py-16 bg-transparent">
+    <section className="py-16 bg-white dark:bg-transparent">
       <div className="container mx-auto px-4">
         <motion.h1 
-          className=" text-center mb-12 text-white flex justify-center items-center"
+          className="text-center mb-12 text-gray-800 dark:text-white flex justify-center items-center"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <FaCertificate className="mr-4 text-white-400" size={24} />
+          <FaCertificate className="mr-4 text-gray-800 dark:text-white" size={24} />
          | My Certifications |
         </motion.h1>
         <motion.div 

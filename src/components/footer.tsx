@@ -4,7 +4,7 @@ import { FC, SVGProps } from "react";
 
 export default function Footer() {
   return (
-    <footer className=" py-8 md:py-12 w-full bg-gradient-to-b from-transparent to-black">
+    <footer className=" py-8 md:py-12 w-full">
       <div className="container max-w-7xl flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between">
         <div className="flex items-center gap-4">
           <TooltipProvider>

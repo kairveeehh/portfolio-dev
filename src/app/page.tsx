@@ -23,27 +23,27 @@ const projects = [
   const certifications = [
     {
       id: 1,
-      title: "Web Development Mastery",
-      image: "/assests/magicdocs.png",
-      description: "Comprehensive web development certification covering frontend and backend technologies.",
-      issuer: "Tech Academy",
-      date: "2023-05-15"
+      title: "SQL-Basic to Advanced",
+      image: "/assests/images/geekster.png",
+      description: "Received the certificate for comple the geekster SQL assignments",
+      issuer: "Geekster",
+      date: "2024-05-12"
     },
     {
-        id: 1,
-        title: "Web Development Mastery",
-        image: "/assests/magicdocs.png",
-        description: "Comprehensive web development certification covering frontend and backend technologies.",
-        issuer: "Tech Academy",
-        date: "2023-05-15"
+        id: 2,
+        title: "Bitcoin Script & Enterprise Course",
+        image: "/assests/images/bitcoin.png",
+        description: "Comprehensive course on Bitcoin and blockchain technologies.",
+        issuer: "BSV Academy",
+        date: "2024-06-15"
       },
       {
-        id: 1,
-        title: "Web Development Mastery",
-        image: "/assests/magicdocs.png",
-        description: "Comprehensive web development certification covering frontend and backend technologies.",
-        issuer: "Tech Academy",
-        date: "2023-05-15"
+        id: 3,
+        title: "Rookie Developer Badge",
+        image: "/assests/images/tsoc.png",
+        description: "Earned for assignment completion of the workshops in TSoC'24",
+        issuer: "TimeChain Labs",
+        date: "2024-06-35"
       },
     // Add more certification objects...
   ];
