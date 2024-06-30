@@ -46,7 +46,7 @@ export default function Component() {
                     translateZ={20}
                     translateX={-40}
                     as="a"
-                    href=""
+                    href="https://kairveeehh.github.io/shehackss/"
                     className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                   >
                     Live Link →
@@ -56,7 +56,7 @@ export default function Component() {
                     translateZ={20}
                     translateX={40}
                     as="a"
-                    href=""
+                    href="https://github.com/kairveeehh/shehackss"
                     className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
                     <GitHubLogoIcon className="w-8 h-8" />
@@ -107,7 +107,7 @@ export default function Component() {
                     translateZ={20}
                     translateX={40}
                     as="a"
-                    href=""
+                    href="https://github.com/kairveeehh/magic-docs"
                     className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
                     <GitHubLogoIcon className="w-8 h-8" />
@@ -148,7 +148,8 @@ export default function Component() {
                   <CardItem
                     translateZ={20}
                     translateX={-40}
-                    as="button"
+                    as="a"
+                    href="https://cah-mocha.vercel.app/"
                     className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                   >
                     Live Link →
@@ -157,7 +158,7 @@ export default function Component() {
                     translateZ={20}
                     translateX={40}
                     as="a"
-                    href=""
+                    href="https://github.com/kairveeehh/CAH/"
                     className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
                     <GitHubLogoIcon className="w-8 h-8" />
@@ -198,7 +199,8 @@ export default function Component() {
                   <CardItem
                     translateZ={20}
                     translateX={-40}
-                    as="button"
+                    as="a"
+                    href="https://imaginify-with-kairveee.vercel.app/"
                     className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                   >
                     Live Link →
@@ -207,7 +209,7 @@ export default function Component() {
                     translateZ={20}
                     translateX={40}
                     as="a"
-                    href=""
+                    href="https://github.com/kairveeehh/imaginify-with-kairvee/"
                     className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
                     <GitHubLogoIcon className="w-8 h-8" />
@@ -257,7 +259,7 @@ export default function Component() {
                     translateZ={20}
                     translateX={40}
                     as="a"
-                    href=""
+                    href="https://github.com/kairveeehh/legendary-enigma"
                     className="flex items-center px-4 py-2 text-white text-xl font-bold"
                   >
                     <GitHubLogoIcon className="w-8 h-8" />
