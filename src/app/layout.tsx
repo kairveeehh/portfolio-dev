@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
-
+import Head from 'next/head';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en"suppressHydrationWarning>
-     
+    
        <body>
       
           <ThemeProvider

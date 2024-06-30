@@ -6,7 +6,7 @@ import Link from "next/link";
 import MyProjects from "@/components/projects";
 import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
 import CertificationsSection from "@/components/cert";
-
+import Head from "next/head";
 import CopyCmd from "@/components/copycmd";
 import { FlipWordsDemo } from "@/components/words";
 import { DockDemo } from "@/components/dock";
@@ -52,6 +52,7 @@ const projects = [
 const page = () => {
     return (
         <section className="lg:max-w-[50%] mt-20 md:mt-36 md:max-w-[90%] relative md:m-auto p-4 flex flex-col min-h-screen">
+          
             <div className=" flex gap-3 flex-col justify-center items-left min-h-[60vh] lg:min-h-screen">
                 <span className=" text-sm lg:text-md flex items-center gap-2 opacity-70 font-medium tracking-widest uppercase">
                     <Terminal size={17} />
