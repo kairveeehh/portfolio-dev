@@ -126,7 +126,7 @@ const ContactMe: React.FC = () => {
         </motion.a>
       </motion.div>
    <motion.h1
-   className=''>
+   className='text-black dark:text-white'>
       drop a message for me? lets do it the git way !! 
    </motion.h1>
    <motion.h2
