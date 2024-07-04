@@ -247,14 +247,7 @@ export default function Component() {
                   />
                 </CardItem>
                 <div className="flex justify-between items-center mt-20">
-                  <CardItem
-                    translateZ={20}
-                    translateX={-40}
-                    as="button"
-                    className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                  >
-                    Live Link →
-                  </CardItem>
+                  
                   <CardItem
                     translateZ={20}
                     translateX={40}

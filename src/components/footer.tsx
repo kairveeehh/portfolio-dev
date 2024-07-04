@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
         <p className="text-sm text-muted-foreground text-center md:text-left">
           Made with ❤️ by{" "}
-          <Link href="https://www.linkedin.com/in/kairveee/" target="_blank" className="font-medium hover:underline" prefetch={false}>
+          <Link href="https://linktr.ee/kairveee" target="_blank" className="font-medium hover:underline" prefetch={false}>
             Kairvee
           </Link>
         </p>
