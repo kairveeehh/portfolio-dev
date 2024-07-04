@@ -24,23 +24,7 @@ export default function Footer() {
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Link
-                  href="https://github.com/kairveeehh"
-                  target="_blank"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                  prefetch={false}
-                >
-                  <GitlabIcon className="h-7 w-7" />
-                </Link>
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>https://github.com/kairveeehh</p>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
+          
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
